@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordsFinder.UI", "WordsFinder.UI\WordsFinder.UI.csproj", "{00DBD743-0D77-4CC2-900D-7F327C392893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordsFinder.BL", "WordsFinder.BI\WordsFinder.BL.csproj", "{167870A8-5E54-4FE6-AE73-62E651C0D4F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{840B5880-2F5F-4E87-8374-FC557917EF70}"
+	ProjectSection(SolutionItems) = preProject
+		Files\dictionaryGB.txt = Files\dictionaryGB.txt
+		Files\dictionaryPL.txt = Files\dictionaryPL.txt
+		Files\dictionary_test.txt = Files\dictionary_test.txt
+		Files\hintico.png = Files\hintico.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00DBD743-0D77-4CC2-900D-7F327C392893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00DBD743-0D77-4CC2-900D-7F327C392893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00DBD743-0D77-4CC2-900D-7F327C392893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00DBD743-0D77-4CC2-900D-7F327C392893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{167870A8-5E54-4FE6-AE73-62E651C0D4F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{167870A8-5E54-4FE6-AE73-62E651C0D4F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{167870A8-5E54-4FE6-AE73-62E651C0D4F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{167870A8-5E54-4FE6-AE73-62E651C0D4F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5E1EFD5-2D53-44A7-88AD-1D1711C2E0C5}
+	EndGlobalSection
+EndGlobal
